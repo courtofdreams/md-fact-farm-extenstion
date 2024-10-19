@@ -1,0 +1,17 @@
+
+
+{ 
+  "manifest_version": 3, 
+  "name": "Moodeng Fact Farm", 
+  "description": "Hi, this is Moodeng Fact Farm. We provide you with interesting facts to enlighten your day.",
+  "version": "0.1.0", 
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [ "activeTab"],
+  "host_permissions": ["*://*/*"],
+  "action": { 
+    "default_popup": "index.html" 
+  } 
+}
