@@ -1,13 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    width: 300px;
-    height: fit-content;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top:2px;
-    padding-bottom:5px
+    width: 350px;
+    height: 500px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, san-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#loading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#headerLogo {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & span {
+        margin-left: 3px;
+        font-size: 17px;
+        font-weight: lighter;
+    }
 }
 
 #resultElement{
-    text-align: center;
     font-size: 14px;
+    white-space: pre-line;
 }
+
+table {
+    width: 100%; /* Ensures the table fits the width of its container */
+    table-layout: fixed; /* Allows the table to adjust column widths automatically */
+    border-collapse: collapse; /* Optional: Removes space between table cells */
+    font-size: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+td, th, tr {
+    border: 1px solid #d4d3d3;
+    padding: 8px;
+}
+
+th {
+    background-color: #fff5fe;
+}
+
+td {
+    background-color: white;
+}
+
+#section1, #section2, #section3 {
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto; 
+    width: inherit;
+    text-align: center;
+    margin-bottom: 5px;
+
+    & h1, h2, h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+#section1 {
+    & h1, h2, h3 {
+        & span {
+            color: orange;
+        }
+    }
+}
+
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    display: block;
+}
+
+thead tr {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+thead th {
+    flex: 1;
+    text-align: left;
+    padding: 0.5rem;
+    border: none;
+} */

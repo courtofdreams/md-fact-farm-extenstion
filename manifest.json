@@ -6,8 +6,8 @@
   "description": "Hi, this is Moodeng Fact Farm. We provide you with interesting facts to enlighten your day.",
   "version": "0.1.0", 
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/md-1x.png",
+    "128": "images/md-1x.png"
   },
   "permissions": [ "activeTab"],
   "host_permissions": ["*://*/*"],
