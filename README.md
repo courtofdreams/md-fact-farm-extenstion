@@ -11,7 +11,7 @@ Social media platforms are now major sources of rapidly shared information. Our 
 
 
 ## How it works
-![Image](./image.png)
+![Image](./images/image.png)
 - Extension will query active url and send it to API
 - API will receive youtube video id from client and return the result whether the video is fake news or not. 
 - For now it determine if the video is fake news by pulling transcript, comments title of the video then send to uAgennts (fakenew agent) to determine if the video is fake news or not.
